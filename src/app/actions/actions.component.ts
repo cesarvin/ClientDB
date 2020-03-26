@@ -76,6 +76,7 @@ export class ActionsComponent implements OnInit {
                 data => {
                   this.actions = data;
                   this.loading = false;
+                  console.log('this.actions', this.actions);
                 },
                 error => {
                     this.loading = false;

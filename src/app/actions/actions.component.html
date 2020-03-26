@@ -47,7 +47,7 @@
       <tr *ngFor="let action of actions">
         <td scope="row">{{action.rol}}</td>
         <td scope="row">{{action.option}}</td>
-        <td scope="row">{{action.action}}</td>
+        <td scope="row">{{action.accion}}</td>
         <td *ngIf="menuOption.eliminar"><input type="button" value="Eliminar" class="btn btn-primary btn-sm btn-danger" (click)="deleteAction(action)"></td> 
       </tr>
     </tbody>
